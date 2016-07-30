@@ -97,7 +97,7 @@ p{
 	margin-top: 40px;
 	width: 140px;
 	height: 25%;
-	order: 0;
+	order: 1;
 	background: black;
 	color: white;
 		overflow-y: hidden;
@@ -120,7 +120,7 @@ ul{
 	margin-top: 40px;
 	width: 130px;
 	height: 25%;
-	order: 1;
+	order: 2;
 	background: white;
 		overflow-y: hidden;
 }
@@ -140,7 +140,7 @@ ul{
 .about-thi{
 	width: 90%;
 	height: 75%;
-	order: 2;
+	order: 3;
 	background: white;
 		overflow-y: hidden;
 }
@@ -159,7 +159,7 @@ img{
 	width:10%;
 	height: 75%;
 	background: red;
-	order: 3;
+	order: 0;
 }
 @media(min-height: 400px) and (min-width: 376px){
 
