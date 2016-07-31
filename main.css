@@ -169,7 +169,7 @@ img{
 	margin-left: 30px;
 }
 
-@media(min-height: 400px) and (min-width: 376px){
+@media(min-height: 400px) and (min-width: 321px){
 
 	.header-tex{
 		padding-top:5px;
