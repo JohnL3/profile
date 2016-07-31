@@ -11,4 +11,6 @@ $('.header-tex').click(function () {
 		$('.dropdown').slideUp();
 	}
 });
+var wid = $('body').width();
+$('.wid').text(wid);
 });
