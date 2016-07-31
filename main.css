@@ -191,6 +191,9 @@ img{
 	img{
 		width:270px;
 	}
+	.list-w, .ltwo{
+		line-height: 2.2;
+	}
 }
 @media(min-width:560px){
 	.header-tex, .dropdown{
