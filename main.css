@@ -1,13 +1,10 @@
-select{ display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;  
-display: -ms-flexbox;  
-}
+
 /*-----------------------------*/
 html, body{
 	height: 100%;
 	font-family: 'Orbitron', sans-serif;
 	margin: 0;
+	overflow-x:hidden;
 }
 .container{
 	width: 100%;
