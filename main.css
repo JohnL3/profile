@@ -185,6 +185,15 @@ img{
 	.about-fir, .about-sec{
 		margin-top:50px;
 	}
+		.about-fir, .about-sec{
+		margin-top:50px;
+	}
+	.about-img, .about-fir{
+		width:180px;
+	}
+	img{
+		width:270px;
+	}
 }
 @media(min-width:560px){
 	.header-tex, .dropdown{
