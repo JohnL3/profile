@@ -121,6 +121,7 @@ ul{
 }
 .list-w{
 	float: right;
+	line-height:1.8;
 	padding-right: 5px;
 	font-size: 1.2em;
 	font-weight: 900;
@@ -140,6 +141,7 @@ ul{
 	
 }
 .ltwo{
+	line-height:1.8;
 	font-size: 1.2em;
 	font-weight: 900;
 }
