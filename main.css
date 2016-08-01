@@ -1,10 +1,9 @@
-
-/*-----------------------------*/
 html, body{
+	width:100%;
 	height: 100%;
 	font-family: 'Orbitron', sans-serif;
 	margin: 0;
-	overflow-x:hidden;
+	overflow-x: hidden;
 }
 .container{
 	width: 100%;
@@ -109,6 +108,7 @@ p{
 		overflow-y: hidden;
 }
 ul{
+	float: right;
 	padding-left: 0;
 }
 .list-n{
@@ -117,7 +117,7 @@ ul{
 	padding-right: 5px;
 }
 .list-w{
-	float: right;
+	padding-left: 35px;
 	line-height:1.8;
 	padding-right: 5px;
 	font-size: 1.2em;
@@ -165,6 +165,55 @@ img{
 	border: 5px solid white;
 	margin-left: 30px;
 }
+/*---------------------------------------------------------------*/
+.portfolio{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background:white;
+}
+.left{
+	width:150px;
+	height: 100%;
+	background: black;
+	order: 0;
+}
+
+.container-b{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-end;
+	order:1;
+}
+.one, .two, .three{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 10px;
+
+}
+.top{
+	background: white;
+	width:100%;
+	height: 10px;
+}
+.one{
+	background: red;
+	width:90%;
+	flex:1;
+}
+.two{
+	background: black;
+	width:90%;
+	flex:1;
+}
+.three{
+	background: blue;
+	width:90%;
+	flex:1;
+}
 
 @media(min-height: 400px) and (min-width: 321px){
 
@@ -176,14 +225,10 @@ img{
 	}
 	
 	 .header-nam{
-	 	padding-top: 5px;
 		font-size:1.3em;
 		font-family: 'Orbitron', sans-serif;
 	}
 	.about-fir, .about-sec{
-		margin-top:50px;
-	}
-		.about-fir, .about-sec{
 		margin-top:50px;
 	}
 	.about-img, .about-fir{
@@ -191,9 +236,6 @@ img{
 	}
 	img{
 		width:270px;
-	}
-	.list-w, .ltwo{
-		line-height: 2.2;
 	}
 }
 @media(min-width:560px){
@@ -214,4 +256,15 @@ img{
 		padding-right:130px;
 	}
 }
+@media(min-height: 440px) and (min-width: 900px){
+	.about-img, .about-fir{
+		width:240px;
+	}
+	img{
+		width:400px;
+	}
+}
 
+
+
+/*-----*/
