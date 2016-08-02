@@ -11,6 +11,26 @@ $('.header-tex').click(function () {
 		$('.dropdown').slideUp();
 	}
 });
-var wid = $('body').width();
-$('.wid').text(wid);
+
+ $('span').click(function () {
+        var a = $(this).text();
+        if (a === 'About') {
+            $(".header-drop").slideUp();
+            $('html, body').animate({
+                scrollIntoView: $(".about").offset().top
+            }, 700);
+        }
+        if (a === 'PORTFOLIO') {
+            $(".header-drop").slideUp();
+            $('html, body').animate({
+                scrollTop: $(".portfolio").offset().top
+            }, 700);
+        }
+        if (a === 'CONTACT') {
+            $(".header-drop").slideUp();
+            $('html, body').animate({
+                scrollTop: $(".contact").offset().top
+            }, 700);
+        }
+    });
 });
