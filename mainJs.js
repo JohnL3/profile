@@ -14,7 +14,7 @@ $('.header-tex').click(function () {
 
  $('span').click(function () {
         var a = $(this).text();
-        if (a === 'About') {
+        if (a === 'ABOUT') {
             $(".dropdown").slideUp();
             $('html, body').animate({
                 scrollIntoView: $(".about").offset().top
