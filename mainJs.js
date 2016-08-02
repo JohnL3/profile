@@ -25,6 +25,7 @@ $('.header-tex').click(function () {
             $('html, body').animate({
                 scrollTop: $(".portfolio").offset().top
             }, 700);
+            console.log($('.portfolio').offset().top);
         }
         if (a === 'CONTACT') {
             $(".header-drop").slideUp();
