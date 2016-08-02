@@ -15,20 +15,20 @@ $('.header-tex').click(function () {
  $('span').click(function () {
         var a = $(this).text();
         if (a === 'About') {
-            $(".header-drop").slideUp();
+            $(".dropdown").slideUp();
             $('html, body').animate({
                 scrollIntoView: $(".about").offset().top
             }, 700);
         }
         if (a === 'PORTFOLIO') {
-            $(".header-drop").slideUp();
+            $(".dropdown").slideUp();
             $('html, body').animate({
                 scrollTop: $(".portfolio").offset().top
             }, 700);
             console.log($('.portfolio').offset().top);
         }
         if (a === 'CONTACT') {
-            $(".header-drop").slideUp();
+            $(".dropdown").slideUp();
             $('html, body').animate({
                 scrollTop: $(".contact").offset().top
             }, 700);
